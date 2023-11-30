@@ -11,3 +11,7 @@ pembahasan tentang one time pad
 <th>TI.21.A1</th>
 </tr>
 </table>
+
+## contoh hasil
+![Screenshot 2023-11-30 234804](https://github.com/forusig/Kriptografi10/assets/92717505/0ab5bf3a-c1ec-4552-99b0-37aca41d1cb6)
+![Screenshot 2023-12-01 004610](https://github.com/forusig/Kriptografi10/assets/92717505/d7075b1e-5680-4d52-bfa7-d6fc4ed4cdab)
