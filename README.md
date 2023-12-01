@@ -15,20 +15,30 @@ pembahasan tentang one time pad
 ## Alur Algoritma
 1.	Tentukan plainteks
 2.	Tentukan kunci
+   ```
+plaintext = input("Plaintext: ")
+key = input("kunci: ")
+```
 3.	Ubahk plainteks ke ascii
 4.	Ubah kunci ke ascii
-5.	Ubah planinteks ascii (Desimal) ke biner
-6.	Ubah Kunci ascii (Desimal) ke biner
-7.	Lakukan Xor hasil biner Plainteks dan Kunci
-8.	Hasil XOR kembalikan ke decimal
-9.	Desimal hasil Xor ambil kode asciinya jadilah Eckeripsi OTP
-
 ```
 asci = konversiascii(text)
 key_A = konversiascii(key)
+```  
+5.	Ubah planinteks ascii (Desimal) ke biner
+6.	Ubah Kunci ascii (Desimal) ke biner
+```
 textb = konversibiner(asci)
 keyb = konversibiner(key_A)
-result = xor_biner(textb, keyb)
+```
+7.	Lakukan Xor hasil biner Plainteks dan Kunci
+    ```
+    result = xor_biner(textb, keyb)
+    ```
+12.	Hasil XOR kembalikan ke decimal
+13.	Desimal hasil Xor ambil kode asciinya jadilah Eckeripsi OTP
+
+```
 decrypted_result = xor_biner(result, keyb)
 hasil_deskripsi_karakter = [kodeascii(biner_ke_desimal(biner)) for biner in decrypted_result]
 decimal_results = [biner_ke_desimal(b) for b in result]
